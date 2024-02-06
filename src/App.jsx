@@ -1,4 +1,5 @@
 import HomePage from "./components/templates/HomePage";
+import Layout from "./lauouts/Layout";
 
 
 function App() {
@@ -6,7 +7,9 @@ function App() {
 
   return (
     <>
-     <HomePage />
+     <Layout>
+       <HomePage />
+     </Layout>
     </>
   )
 }
