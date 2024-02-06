@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { useState } from "react"
+import { useState } from "react";
 import { RotatingLines } from "react-loader-spinner";
 import { searchCoin } from "../../services/CryptoApi";
 import styles from "./Search.module.css";
